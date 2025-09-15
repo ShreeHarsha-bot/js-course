@@ -26,3 +26,21 @@ function isLoogedIn(username) {
 }
 
 console.log(isLoogedIn("Harsha"))
+
+
+function calculateCartPrice(...num1){  //rest operator
+    return num1;
+}
+
+console.log(calculateCartPrice(2,3,3));
+
+const user={
+    username:"Harsha",
+    price:444
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+handleObject(user);
